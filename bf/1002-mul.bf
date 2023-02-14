@@ -1,0 +1,18 @@
+# READ INTO BLOCK 0 & 1
+,>>+++ +++[<<-------->>-]
+<,>+++ +++[<-------->-]
+# GO BACK TO BLOCK 1 WHEN DONE
+<
+# COPY BLOCK 0 INTO BLOCK 2 & 3
+[<[>>+>+<<<-]
+# GO TO BLOCK 3 WHEN DONE
+>>>
+# COPY BLOCK 3 BACK TO 1
+[<<<+>>>-]
+# GO BACK TO BLOCK 1 AND DECREMENT
+<<-]
+# ITERATES UNTIL BLOCK 1 IS ZERO
+# USE BLOCK 3 AS A COUNTER TO ADD 48 TO BLOCK 2
+>>++++++[<++++++++>-]
+# GO BACK TO BLOCK 2 AND PRINT RESULT
+<.
