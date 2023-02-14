@@ -1,0 +1,7 @@
+-[------->+<]>++++++++++.		Prints 'S'
+-[+++++++>+<]>-++.			Prints 'c'
++++++.					Prints 'h'
++++++++.				Prints 'o'
+.					Prints 'o'
+---.					Prints 'l'
+++>[-]++++++++++.			Prints '\n'
