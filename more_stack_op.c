@@ -12,16 +12,19 @@ void _add(stack_t **head, unsigned int line_number)
 	int sum;
 
 	tmp = *head;
+
 	/*if (tmp == NULL)
 	{
 		fprintf(stderr, "L%d: can't add, stack too short", line_number);
 		exit(EXIT_FAILURE);
 	}*/
+
 	for (len = 0; tmp != NULL; len++)
 		tmp = tmp->next;
 	if (head == NULL || (*head)->next == NULL || len < 2)
 	{
-		fprintf(stderr, "L%d: can't add, stack too short", line_number);		exit(EXIT_FAILURE);
+		fprintf(stderr, "L%d:can't add, stack too short", line_number);
+exit(EXIT_FAILURE);
 	}
 	tmp = *head;
 	sum = (*head)->next->n + (*head)->n;
